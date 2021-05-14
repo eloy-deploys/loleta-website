@@ -1,0 +1,13 @@
+{
+  "name": "loleta",
+  "short_name": "loleta",
+  "start_url": ".",
+  "description": "loleta Gomez",
+  "icons": [
+      {
+          "src": "../src/styles/static/Icon.png",
+          "sizes": "48x48",
+          "type": "image/png"
+      }
+  ]
+}
