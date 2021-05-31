@@ -7,7 +7,7 @@ Mostrar el trabajo del artista, dar una imagen global de ella y su taller
 Imagen pantalla entera
 Video pantalla entera
 
-Home -> cuadro de fondo
+Home -> cuadro de fondo 
 Contacto ->
 Galería
 Sobre mí
