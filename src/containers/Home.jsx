@@ -1,22 +1,21 @@
+// React
 import React from 'react';
+
+// Components
+import Layout from './Layout';
+
+// Style
 import '../styles/containers/Home.scss';
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="container">
-        <div className="header">
-          <div className="logo">
-            <h3>Loleta</h3>
-          </div>
-          <div className="menu">
-            <p>Sobre mí</p>
-            <p>Galería</p>
-            <p>Contacta</p>
-          </div>
+    <Layout>
+      <div className="home">
+        <div className="container">
+          <p>home</p>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
