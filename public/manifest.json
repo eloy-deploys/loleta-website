@@ -1,6 +1,6 @@
 {
-  "name": "loleta",
-  "short_name": "loleta",
+  "name": "loleta-web",
+  "short_name": "loleta-web",
   "start_url": ".",
   "description": "loleta Gomez",
   "icons": [
