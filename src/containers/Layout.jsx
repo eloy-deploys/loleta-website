@@ -9,17 +9,14 @@ const Layout = ({ children }) => {
     <>
       <div className="header">
         <div className="menu">
-          <Link to="/" className="link">
-            Home
-          </Link>
           <Link to="/gallery" className="link">
-            Galeria
+            GALERÍA
           </Link>
           <Link to="/about" className="link">
-            Sobre mí
+            SOBRE MÍ
           </Link>
           <Link to="/contact" className="link">
-            Contacta
+            CONTACTA
           </Link>
         </div>
       </div>
