@@ -1,8 +1,8 @@
 // React
-import React from 'react'
+import React from 'react';
 
 // Style
-import '../styles/containers/Gallery.scss'
+import '../styles/containers/Gallery.scss';
 
 // Components
 import Layout from './Layout';
@@ -12,11 +12,11 @@ const Gallery = () => {
     <Layout>
       <div className="gallery">
         <div className="content">
-          <p>galeria</p>
+          <p>¡Estamos trabajado en ello!</p>
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;

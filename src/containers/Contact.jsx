@@ -12,7 +12,7 @@ const Contact = () => {
     <Layout>
       <div className="contact">
         <div className="content">
-          <p>contacta</p>
+          <p>¡Estamos trabajado en ello!</p>
         </div>
       </div>
     </Layout>
