@@ -1,17 +1,22 @@
 // React
-import React from 'react'
+import React from 'react';
 
 // Components
 import Layout from './Layout';
+
+// Style
+import '../styles/containers/About.scss';
 
 const About = () => {
   return (
     <Layout>
       <div className="about">
-        <p>about</p>
+        <div className="content">
+          <p>about</p>
+        </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default About
+export default About;

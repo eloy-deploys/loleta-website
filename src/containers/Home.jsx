@@ -10,8 +10,8 @@ import '../styles/containers/Home.scss';
 
 const Home = () => {
   useEffect(() => {
-    gsap.set('.hide-container', {display: 'flex'})
-    gsap.set('.header', {top: '-100px'})
+    gsap.set('.hide-container', { display: 'flex' });
+    gsap.set('.header', { top: '-100px' });
     gsap.to('.hide.first', {
       transform: 'translateY(-100%)',
       duration: 1.5,
@@ -47,7 +47,9 @@ const Home = () => {
     <Layout>
       <div className="home">
         <div className="container">
-          <p>home</p>
+          <div className="content">
+            {/* <p>home</p> */}
+          </div>
         </div>
         <div className="hide-container">
           <div className="hide first" />
