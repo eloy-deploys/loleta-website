@@ -1,23 +1,20 @@
+// React
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Style
 import '../styles/Layout.scss';
+
+// Components
+import MenuButton from '../components/MenuButton';
 
 const Layout = ({ children }) => {
   return (
     <>
       <div className="header">
         <div className="menu">
-          <Link to="/gallery" className="link">
-            GALERÍA
-          </Link>
-          <Link to="/about" className="link">
-            SOBRE MÍ
-          </Link>
-          <Link to="/contact" className="link">
-            CONTACTA
-          </Link>
+          <MenuButton link="/gallery" name="GALERÍA" />
+          <MenuButton link="/about" name="LOLETA" />
+          <MenuButton link="/contact" name="CONTACTA" />
         </div>
       </div>
       {children}
